@@ -3,88 +3,46 @@ let store = {
     _state: {
         profilePage: {
             posts: [{
-                    id: 1,
-                    message: "Hi, How are you?",
-                    likesCount: 11
-                },
+                    id: 1,message: "Hi, How are you?", likesCount: 11},
                 {
-                    id: 2,
-                    message: "It`s my first post",
-                    likesCount: 11
-                },
+                    id: 2,message: "It`s my first post",likesCount: 11
+},
+                {   id: 3,message: "Blabla",likesCount: 11},
                 {
-                    id: 3,
-                    message: "Blabla",
-                    likesCount: 11
-                },
+                    id: 4,message: "Dadada",likesCount: 11},
                 {
-                    id: 4,
-                    message: "Dadada",
-                    likesCount: 11
-                },
+                    id: 5,message: "YO",likesCount: 11},
                 {
-                    id: 5,
-                    message: "YO",
-                    likesCount: 11
-                },
-                {
-                    id: 6,
-                    message: "YO",
-                    likesCount: 11
-                }
+                    id: 6,message: "YO",likesCount: 11}
             ],
             newPostText: ''
         },
         dialogsPage: {
             dialogs: [{
-                    id: 1,
-                    name: "Dimych"
-                },
+                    id: 1,name: "Dimych"},
                 {
-                    id: 2,
-                    name: "Andrew"
-                },
+                    id: 2,name: "Andrew"},
                 {
-                    id: 3,
-                    name: "Sveta"
-                },
+                    id: 3,name: "Sveta"},
                 {
-                    id: 4,
-                    name: "Sasha"
-                },
+                    id: 4,name: "Sasha"},
                 {
-                    id: 5,
-                    name: "Viktor"
-                },
+                    id: 5,name: "Viktor"},
                 {
-                    id: 6,
-                    name: "Valera"
-                }
+                    id: 6,name: "Valera"}
             ],
             messages: [{
-                    id: 1,
-                    message: "Hi"
-                },
+                    id: 1,message: "Hi"},
                 {
-                    id: 2,
-                    message: "How is your Lego"
-                },
+                    id: 2,message: "How is your Lego"},
                 {
-                    id: 3,
-                    message: "YO"
-                },
+                    id: 3,message: "YO"},
                 {
-                    id: 4,
-                    message: "YO"
-                },
+                    id: 4,message: "YO"},
                 {
-                    id: 5,
-                    message: "YO"
-                },
+                    id: 5,message: "YO"},
                 {
-                    id: 6,
-                    message: "YO"
-                }
+                    id: 6,message: "YO"}
             ]
         },
         sidebar: {}

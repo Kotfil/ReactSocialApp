@@ -9,12 +9,11 @@ const MyPosts = props => {
    = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
 
   let newPostElement = React.createRef();
-
-  let addPost = () => {
+    let addPost = () => {
     props.dispatch(addPostActionCreator());
-  }
+  };
+
     let onPostChange = () => {
-        debugger;
     let text = newPostElement.current.value;
     let action = updateNewPostTextActionCreator(text);
     props.dispatch(action);
